@@ -3,10 +3,10 @@ import './AboutContent.css';
 
 function SiteMission () {
   return (
-    <div>
-      <h3>Site Mission</h3>
+    <div className="about-content">
+      <h3>Наша миссия</h3>
       <p>
-        We aim to increase the level of intellectural discourse within the emoji community, while also elevating the quality of professional emoji critisim.
+        Мы стремимся повысить уровень дискурса в сообществе пользователей эмодзи, а также повысить качество профессиональной критики и рецензирования эмодзи.
       </p>
     </div>
   )

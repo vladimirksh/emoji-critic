@@ -11,10 +11,10 @@ function AboutUs () {
     <div className="about-us">
       <ul>
         <li>
-          <Link to={`${url}/site-history`}>Site History</Link>
+          <Link to={`${url}/site-history`}>История приложения</Link>
         </li>
         <li>
-          <Link to={`${url}/site-mission`}>Site Mission</Link>
+          <Link to={`${url}/site-mission`}>Наша миссия</Link>
         </li>
       </ul>
       <Route path={`${path}/site-history`}>
