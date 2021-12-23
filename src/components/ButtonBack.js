@@ -6,7 +6,7 @@ function ButtonBack () {
 const history = useHistory();
 
   return(
-    <button className=" button_type_back" onClick={() => history.goBack()}>Назад</button> 
+    <button className=" button_type_back" onClick={history.goBack}>Назад</button> 
   )
 }
 

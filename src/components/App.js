@@ -22,7 +22,6 @@ function App() {
       // форматируем данные и, используя setData, обновляем текущий стейт
       const reviews = Object.values(parsedReviews);
       setReviews(reviews);
-      console.log(reviews)
     })
   }, []);
 
